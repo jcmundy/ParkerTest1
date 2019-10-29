@@ -124,6 +124,11 @@
                             "@type": "sc:AnnotationList",
                             "@id": "https://readux.ecdsdev.org/iiif/v2/32862204.5243.emory.edu/list/32862204.5243.emory.edu$2",
                             "label": "OCR Text"
+                        },
+                        {
+                            "@type": "sc:AnnotationList",
+                            "@id": "https://readux.ecdsdev.org/annotations/jcmundy39/32862204.5243.emory.edu/list/32862204.5243.emory.edu$2",
+                            "label": "Annotations by jcmundy39"
                         }
                     ],
                     "width": 3113,
@@ -211,6 +216,11 @@
                             "@type": "sc:AnnotationList",
                             "@id": "https://readux.ecdsdev.org/annotations/sepalme/32862204.5243.emory.edu/list/32862204.5243.emory.edu$4",
                             "label": "Annotations by sepalme"
+                        },
+                        {
+                            "@type": "sc:AnnotationList",
+                            "@id": "https://readux.ecdsdev.org/annotations/jcmundy39/32862204.5243.emory.edu/list/32862204.5243.emory.edu$4",
+                            "label": "Annotations by jcmundy39"
                         }
                     ],
                     "width": 3113,
@@ -1650,7 +1660,7 @@
             "label": "Annotators"
         },
         {
-            "value": "2019-10-29T20:55:59.293",
+            "value": "2019-10-29T21:00:23.892",
             "label": "Export Date"
         }
     ],
