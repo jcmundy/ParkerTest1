@@ -6,6 +6,6 @@ excerpt: An introduction explaining annotation methods and goals.
 ---
 
 <p class="message">
-  Edit to add an introduction to your digital edition.
+   This is a text of the functions of the new Readux export version 2.0.
 </p>
 
