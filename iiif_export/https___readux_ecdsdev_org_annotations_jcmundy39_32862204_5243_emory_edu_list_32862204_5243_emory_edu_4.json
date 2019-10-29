@@ -2,5 +2,52 @@
     "@id": "https://readux.ecdsdev.org/annotations/jcmundy39/32862204.5243.emory.edu/list/32862204.5243.emory.edu$4",
     "@type": "sc:AnnotationList",
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "resources": []
+    "resources": [
+        {
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "language": "en",
+                "format": "text/html",
+                "chars": "<p>Plans and pictures</p>"
+            },
+            "@id": "a4135c08-211a-493c-8eb7-787bb24ce40e",
+            "@type": "oa:Annotation",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "on": {
+                "@type": "oa:SpecificResource",
+                "full": "https://readux.ecdsdev.org/iiif/v2/32862204.5243.emory.edu/canvas/32862204.5243.emory.edu$4",
+                "within": {
+                    "@type": "sc:Manifest",
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/32862204.5243.emory.edu/manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=1142,1936,678,51",
+                    "item": {
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='fa30e3b9-87b1-4cf8-8f9f-4a76fdfcd945']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 2
+                            }
+                        },
+                        "@type": "RangeSelector",
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='f88d0f50-3c6f-4e00-a0e8-15377031c74d']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 9
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
 }
