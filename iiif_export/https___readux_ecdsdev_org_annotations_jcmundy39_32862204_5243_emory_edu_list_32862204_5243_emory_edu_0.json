@@ -1,0 +1,88 @@
+{
+    "@id": "https://readux.ecdsdev.org/annotations/jcmundy39/32862204.5243.emory.edu/list/32862204.5243.emory.edu$0",
+    "@type": "sc:AnnotationList",
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "resources": [
+        {
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "language": "en",
+                "format": "text/html",
+                "chars": "<p>Farnese Gardens!</p>"
+            },
+            "@id": "56ccafa2-7d13-42b7-bedf-c9126aa475cb",
+            "@type": "oa:Annotation",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "on": {
+                "@type": "oa:SpecificResource",
+                "full": "https://readux.ecdsdev.org/iiif/v2/32862204.5243.emory.edu/canvas/32862204.5243.emory.edu$0",
+                "within": {
+                    "@type": "sc:Manifest",
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/32862204.5243.emory.edu/manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=714,1324,1702,88",
+                    "item": {
+                        "startSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='917abed4-080b-4082-8521-739b7516d200']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "start": 3
+                            }
+                        },
+                        "@type": "RangeSelector",
+                        "endSelector": {
+                            "@type": "XPathSelector",
+                            "value": "//*[@id='4993e0b6-e27e-4d09-9883-8f0ff6afcd18']",
+                            "refinedBy": {
+                                "@type": "TextPositionSelector",
+                                "end": 8
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "motivation": "oa:commenting",
+            "annotatedBy": {
+                "name": "Joanna's Github"
+            },
+            "resource": {
+                "@type": "dctypes:Text",
+                "language": "en",
+                "format": "text/html",
+                "chars": "<p>Title</p>"
+            },
+            "@id": "0413c90c-63a7-4c43-b122-8a6330a606de",
+            "@type": "oa:Annotation",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "on": {
+                "@type": "oa:SpecificResource",
+                "full": "https://readux.ecdsdev.org/iiif/v2/32862204.5243.emory.edu/canvas/32862204.5243.emory.edu$0",
+                "within": {
+                    "@type": "sc:Manifest",
+                    "@id": "https://readux.ecdsdev.org/iiif/v2/32862204.5243.emory.edu/manifest"
+                },
+                "selector": {
+                    "@type": "oa:FragmentSelector",
+                    "value": "xywh=952,953,1278,199",
+                    "item": {
+                        "@type": "oa:Choice",
+                        "value": "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M951.72714,953.33808h639.04864v0h639.04864v99.30961v99.30961h-639.04864h-639.04864v-99.30961z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;newlyCreatedStrokeFactor&quot;:5,&quot;newlyCreated&quot;:true,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_86d8006f-869c-40ed-bcb6-5504a586018c\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"5\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>",
+                        "default": {
+                            "@type": "oa:FragmentSelector",
+                            "value": "xywh=952,953,1278,199"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
