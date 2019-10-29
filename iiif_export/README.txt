@@ -1,6 +1,6 @@
 Annotation export from Readux v2 at https://readux.ecdsdev.org
 edition type: Readux IIIF Exported Edition
-export date: 2019-10-29 20:55:59.293651 UTC
+export date: 2019-10-29 20:59:09.989152 UTC
 
 volume title: Fouilles sur le Palatin dans les jardins farnèses appartenent a s.m. l'empereur Napoléo
 volume author: Parker, John Henry, 1806-1884, photographer.
